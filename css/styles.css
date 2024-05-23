@@ -68,8 +68,6 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-left: 0;
-    margin: 0;
     padding: 24px;
     display: block;
 }
@@ -96,13 +94,9 @@ align-items: center;
 color: #404bbf;
 }
 /* hero */
-.hero{
-
-}
-.hero-container{
+.hero {
 background-color: #2e2f42;
-padding: 188px 472px 292px 472px;
-
+padding: 188px;
 }
 .hero-title {
     font-weight: 700;
@@ -111,8 +105,9 @@ padding: 188px 472px 292px 472px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
     margin-bottom: 48px;
-
 }
 .hero-btn{
     font-weight: 500;
@@ -122,11 +117,14 @@ padding: 188px 472px 292px 472px;
     color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
-    border-radius: 4px;
+    display: block;
+    min-width: 169px;
+    height: 59px;
     border: none;
-     padding: 16px 32px;
-    display:block;
+    border-radius: 4px;
     margin: 0 auto;
+     /* padding: 16px 32px;
+    margin: 0 auto; */
 }
 .hero-btn:hover,
 .hero-btn:focus{
@@ -141,11 +139,10 @@ background-color: #404bbf;
 }
 
 .features-list {
-    padding-left: 0;
-    margin: 0;
     display: flex;
     gap: 24px;
-    text-align: center;
+    /* padding: 0 15px; */
+    /* text-align: center; */
 }
 .visually-hidden {
     position: absolute;
@@ -163,12 +160,7 @@ background-color: #404bbf;
 .features-item {
     background-color: #ffffff;
     list-style-type: none;
-    padding-left: 0;
-    height: 104px;
     display: inline-block;
-    box-sizing: border-box;
-    border-radius: 0 0 4px 4px;
-    gap: 24px;
     width: calc((100% - 3 * 24px) / 4) 
 }
 
@@ -212,8 +204,6 @@ background-color: #404bbf;
     margin-bottom: 72px;
 }
 .team-list {
-    padding-left: 0;
-    margin: 0;
     display: flex;
     gap: 24px;
 }
@@ -270,8 +260,6 @@ background-color: #404bbf;
 }
 
 .portfolio-list {
-    padding-left: 0;
-    margin: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
@@ -308,10 +296,9 @@ background-color: #404bbf;
 /* ----footer  */
 .footer {
     background-color: #2e2f42;
-    padding-top: 100px;
-    padding-right: 1020px;
-    padding-bottom: 100px;
-    padding-left: 156px;
+    padding: 100px;
+}
+.footer-container {
 
 }
 .footer-logo {
@@ -323,7 +310,7 @@ background-color: #404bbf;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     display: inline-block;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
 }
 .footer-logo-part{
     font-weight: 700;
@@ -334,7 +321,6 @@ background-color: #404bbf;
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
     display: inline;
-    margin-bottom: 19px;
 }
 .footer-text {
     font-weight: 400;
@@ -342,7 +328,5 @@ background-color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    width: 264px;
-    height: 112px;
-
+    max-width: 264px;
 }
