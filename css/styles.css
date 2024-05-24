@@ -96,8 +96,7 @@ color: #404bbf;
 /* hero */
 .hero {
 background-color: #2e2f42;
-padding-top: 188px;
-padding-bottom: 292px;
+padding: 188px;
 }
 .hero-title {
     font-weight: 700;
