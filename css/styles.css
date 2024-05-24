@@ -68,7 +68,7 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px;
+    padding: 24px 0;
     display: block;
 }
 .header-menu-link:hover,
@@ -96,7 +96,7 @@ color: #404bbf;
 /* hero */
 .hero {
 background-color: #2e2f42;
-padding: 188px;
+padding: 188px 0;
 }
 .hero-title {
     font-weight: 700;
@@ -132,8 +132,7 @@ background-color: #404bbf;
 /* -----features */
 .features {
     background-color: #ffffff;
-    padding-top: 120px;
-    padding-bottom: 156px;
+    padding: 120px 0;
 }
 
 .features-list {
@@ -182,10 +181,10 @@ background-color: #404bbf;
 /* -----team */
 .team {
    background-color: #F4F4FD;
-   padding: 120px;
+   padding: 120px 0;
 }
 .team-container {
-    padding: 32px;
+    padding: 32px 0;
     text-align: center;
 }
 
@@ -224,7 +223,7 @@ background-color: #404bbf;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 8px;
+    margin-bottom: 8px;
     align-items: center;
 }
 .team-text {
@@ -244,7 +243,12 @@ background-color: #404bbf;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
+.container-portfolio {
+    padding: 32px 16px;
+    border-bottom: 1px solid #e7e9fc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+}
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -264,10 +268,9 @@ background-color: #404bbf;
 
 .portfolio-item {
     background: #fff;
-    border-bottom: 1px solid #e7e9fc;
     width: calc((100% - 2 * 24px) / 3);
     text-align: left;
-    border-radius: 0 0 4px 4px;
+
 }
 
 .portfolio-img {
@@ -284,7 +287,7 @@ background-color: #404bbf;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
+    margin-bottom: 8px
 }
 
 .portfolio-text {
@@ -297,7 +300,7 @@ background-color: #404bbf;
 /* ----footer  */
 .footer {
     background-color: #2e2f42;
-    padding: 100px;
+    padding: 100px 0;
 }
 .footer-logo {
     font-weight: 700;
@@ -308,9 +311,9 @@ background-color: #404bbf;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     display: inline-block;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     width: 115px;
-        height: 24px;
+    height: 24px;
 }
 .footer-logo-part{
     font-weight: 700;
