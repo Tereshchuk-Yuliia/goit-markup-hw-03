@@ -96,7 +96,8 @@ color: #404bbf;
 /* hero */
 .hero {
 background-color: #2e2f42;
-padding: 188px;
+padding-top: 188px;
+padding-bottom: 292px;
 }
 .hero-title {
     font-weight: 700;
@@ -134,14 +135,13 @@ background-color: #404bbf;
 /* -----features */
 .features {
     background-color: #ffffff;
-    padding: 120px;
-    max-width: 104px;
+    padding-top: 120px;
+    padding-bottom: 156px;
 }
 
 .features-list {
     display: flex;
     gap: 24px;
-
 }
 .visually-hidden {
     position: absolute;
@@ -297,9 +297,6 @@ background-color: #404bbf;
     background-color: #2e2f42;
     padding: 100px;
 }
-.footer-container {
-
-}
 .footer-logo {
     font-weight: 700;
     font-size: 18px;
@@ -310,6 +307,8 @@ background-color: #404bbf;
     font-family: "Raleway", sans-serif;
     display: inline-block;
     margin-bottom: 15px;
+    width: 115px;
+        height: 24px;
 }
 .footer-logo-part{
     font-weight: 700;
