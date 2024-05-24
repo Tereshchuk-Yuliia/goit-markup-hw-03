@@ -120,12 +120,10 @@ padding-bottom: 292px;
     cursor: pointer;
     display: block;
     min-width: 169px;
-    height: 59px;
+    height: 56px;
     border: none;
     border-radius: 4px;
     margin: 0 auto;
-     /* padding: 16px 32px;
-    margin: 0 auto; */
 }
 .hero-btn:hover,
 .hero-btn:focus{
@@ -210,13 +208,14 @@ background-color: #404bbf;
 .team-item {
     background-color: #ffffff;
     border-radius: 0 0 4px 4px;
-    width: calc((100% - 2 * 24px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-img {
     display: block;
     border-bottom: 1px solid #e7e9fc;
     max-width: 100%;
+    height: auto
 }
 
 .team-sabtitle {
@@ -266,14 +265,18 @@ background-color: #404bbf;
 
 .portfolio-item {
     background: #fff;
-    border: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
     width: calc((100% - 2 * 24px) / 3);
     text-align: left;
+    border-radius: 0 0 4px 4px;
 }
 
 .portfolio-img {
     margin: 0 auto;
     margin-bottom: 32px;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .portfolio-sabtitle {
